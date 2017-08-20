@@ -18,7 +18,7 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[test_aws::default]
+      - recipe[install_awscli_centos7::default]
     verifier:
       inspec_tests:
         - test/smoke/default
